@@ -1,3 +1,7 @@
 #calc-container {
   padding: 10px;
 }
+
+#qtc-results {
+	display: none;
+}

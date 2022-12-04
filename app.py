@@ -9,6 +9,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
   return render_template('index.html')
+  
 @app.route('/process_qtc', methods=['POST', 'GET'])
 def process_qt_calculation():
   if request.method == "POST":
